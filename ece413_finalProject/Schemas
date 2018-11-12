@@ -1,0 +1,23 @@
+var deviceSchema = new db.Schema({
+	apikey:       String,
+	deviceId:     String,
+	userEmail:    String,
+	lastContact:  { type: Date, default: Date.now }
+});
+
+var dataSchema = new db.Schema({
+	gpsLocation:	[ Double ],
+	gpsSpeed:	[ Double ],
+	uvReadings:	[ Double ],
+	time:		{ type: Date, default: Date.now }
+});
+
+var userSchema = new db.Schema({
+    email:        { type: String, required: true, unique: true },
+    fullName:     { type: String, required: true },
+    passwordHash: String,
+    lastAccess:   { type: Date, default: Date.now },
+    userDevices:  [ String ],
+});
+
+	
