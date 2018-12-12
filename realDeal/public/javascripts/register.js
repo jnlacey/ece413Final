@@ -11,13 +11,24 @@ function sendReqForSignup() {
     responseDiv.innerHTML = "<p>Password does not match.</p>";
     return;
   }
-  console.log("Boop");
-  var xhr = new XMLHttpRequest();
-  xhr.addEventListener("load", signUpResponse);
-  xhr.responseType = "json";
-  xhr.open("POST", '/users/register');
-  xhr.setRequestHeader("Content-type", "application/json");
-  xhr.send(JSON.stringify({email:email,fullName:fullName, password:password}));
+
+  var passStrength = "";
+  var aRegex =/^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z]).{8,}$/;
+  if (!aRegex.test(password)) {
+	console.log("This password sucks");
+	var responseDiv = document.getElementById('ServerResponse');
+        responseDiv.style.display = "block";
+        responseDiv.innerHTML = "<p>Password must be at least 8 characters long with 1 uppercase, lowercase, numeric, and special character.</p>";
+  }
+  else {
+  	console.log("This password does not suck");
+  	var xhr = new XMLHttpRequest();
+  	xhr.addEventListener("load", signUpResponse);
+  	xhr.responseType = "json";
+  	xhr.open("POST", '/users/register');
+  	xhr.setRequestHeader("Content-type", "application/json");
+  	xhr.send(JSON.stringify({email:email,fullName:fullName, password:password}));
+  }
 }
 
 function signUpResponse() {

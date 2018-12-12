@@ -12,14 +12,34 @@ function sendReqForAccountInfo() {
 function accountInfoSuccess(data, textSatus, jqXHR) {
    $("#email").html(data.email);
    $("#fullName").html(data.fullName);
+   $("#uvLimit").html(data.uvLimit);
    $("#lastAccess").html(data.lastAccess);
    $("#main").show();
    
    // Add the devices to the list before the list item for the add device button (link)
    for (var device of data.devices) {
       $("#addDeviceForm").before("<li class='collection-item'>ID: " +
-        device.deviceId + ", APIKEY: " + device.apikey + "</li>")
+        device.deviceId + ", APIKEY: " + device.apikey)
    }
+}
+
+function deleteDevice() {
+   $.ajax({
+      url: '/users/deleteDevice',
+      type: 'GET',
+      headers: { 'x-auth': window.localStorage.getItem("authToken") },
+      responseType: 'json',
+      success: deleteDeviceId,
+      error: accountInfoError
+   });
+}
+
+function deleteDeviceId() {
+   /*for (var device of data.devices)
+	ajax post to delete the association of  
+   }*/
+   //reload page
+   location.reload(true);
 }
 
 function accountInfoError(jqXHR, textStatus, errorThrown) {
@@ -84,6 +104,7 @@ $(function() {
    }
    
    // Register event listeners
+   $("#removeDevice").click(deleteDevice);
    $("#addDevice").click(showAddDeviceForm);
    $("#registerDevice").click(registerDevice);   
    $("#cancel").click(hideAddDeviceForm);   

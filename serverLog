@@ -1,75 +1,1308 @@
 
-> myapp@0.0.0 start /home/ec2-user/my_server/myapp
+> eceserver18@0.0.0 start /home/ec2-user/my_server/realDeal
 > node ./bin/www
 
-[0mGET /info.html [36m304 [0m8.352 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m1.748 ms - -[0m
-[0mGET /images/photo.jpg [36m304 [0m1.948 ms - -[0m
-[0mGET /info.html [32m200 [0m2.729 ms - 672[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.923 ms - 458[0m
-[0mGET /images/photo.jpg [32m200 [0m0.359 ms - 2404224[0m
-[0mGET /info.html [32m200 [0m0.535 ms - 672[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.882 ms - 458[0m
-[0mGET /images/photo.jpg [32m200 [0m0.847 ms - 2404224[0m
-[0mGET /favicon.ico [33m404 [0m581.298 ms - 1122[0m
-[0mGET /info.html [36m304 [0m1.029 ms - -[0m
-[0mGET /images/photo.jpg [36m304 [0m0.992 ms - -[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.850 ms - -[0m
-[0mGET / [32m200 [0m1.442 ms - 13[0m
-[0mGET / [32m200 [0m1.734 ms - 13[0m
-[0mGET /info.html [32m200 [0m1.285 ms - 672[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.748 ms - 458[0m
-[0mGET /images/photo.jpg [32m200 [0m0.637 ms - 2404224[0m
-[0mGET / [32m200 [0m1.018 ms - 13[0m
-[0mGET /info.html [32m200 [0m0.622 ms - 672[0m
-[0mGET /stylesheets/style.css [32m200 [0m0.522 ms - 458[0m
-[0mGET /images/photo.jpg [32m200 [0m0.758 ms - 2404224[0m
-[0mGET /favicon.ico [33m404 [0m30.630 ms - 1122[0m
-[0mGET / [32m200 [0m1.264 ms - 13[0m
-[0mGET / [32m200 [0m0.443 ms - 13[0m
-[0mGET /favicon.ico [33m404 [0m31.969 ms - 1122[0m
-[0mGET / [32m200 [0m1.059 ms - 13[0m
-[0mGET / [32m200 [0m2.097 ms - 13[0m
-[0mGET / [32m200 [0m2.170 ms - 13[0m
-[0mGET / [32m200 [0m0.411 ms - 13[0m
-[0mGET / [32m200 [0m0.880 ms - 13[0m
-[0mGET / [32m200 [0m0.417 ms - 13[0m
-[0mPOST / [33m404 [0m58.847 ms - 1122[0m
-[0mGET / [32m200 [0m0.882 ms - 13[0m
-[0mGET / [32m200 [0m0.469 ms - 13[0m
-[0mGET / [32m200 [0m0.714 ms - 13[0m
-[0mGET / [32m200 [0m0.640 ms - 13[0m
-[0mGET / [32m200 [0m0.513 ms - 13[0m
-[0mGET / [32m200 [0m1.032 ms - 13[0m
-[0mGET / [32m200 [0m0.596 ms - 13[0m
-[0mGET / [32m200 [0m0.402 ms - 13[0m
-[0mGET http://5.188.210.12/echo.php [33m404 [0m57.361 ms - 1122[0m
-[0mGET / [32m200 [0m1.056 ms - 13[0m
-[0mGET / [32m200 [0m0.661 ms - 13[0m
-[0mGET / [32m200 [0m0.515 ms - 13[0m
-[0mGET / [32m200 [0m0.759 ms - 13[0m
-[0mGET / [32m200 [0m1.025 ms - 13[0m
-[0mGET /favicon.ico [33m404 [0m28.280 ms - 1122[0m
-[0mGET / [32m200 [0m0.474 ms - 13[0m
-[0mGET /favicon.ico [33m404 [0m23.239 ms - 1122[0m
-[0mGET / [32m200 [0m0.408 ms - 13[0m
-[0mGET / [32m200 [0m1.231 ms - 13[0m
-[0mGET / [32m200 [0m0.481 ms - 13[0m
-[0mGET / [32m200 [0m0.537 ms - 13[0m
-[0mGET / [32m200 [0m0.546 ms - 13[0m
-[0mGET / [32m200 [0m0.492 ms - 13[0m
-[0mGET / [32m200 [0m0.445 ms - 13[0m
-[0mGET / [32m200 [0m0.481 ms - 13[0m
-[0mGET / [32m200 [0m0.448 ms - 13[0m
-[0mGET / [32m200 [0m0.429 ms - 13[0m
-[0mGET / [32m200 [0m0.502 ms - 13[0m
-[0mGET /register.html [33m404 [0m36.847 ms - 1122[0m
-[0mGET /stylesheets/style.css [32m200 [0m1.259 ms - 458[0m
-[0mGET /favicon.ico [33m404 [0m24.235 ms - 1122[0m
-[0mGET /holz/register.html [33m404 [0m11.372 ms - 1122[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.435 ms - -[0m
-[0mGET /index.html [33m404 [0m14.795 ms - 1122[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.356 ms - -[0m
-[0mGET /info.html [32m200 [0m0.532 ms - 672[0m
-[0mGET /stylesheets/style.css [36m304 [0m0.445 ms - -[0m
-[0mGET /images/photo.jpg [32m200 [0m0.523 ms - 2404224[0m
+collection.ensureIndex is deprecated. Use createIndexes instead.
+[0mGET /viewData.html [36m304 [0m6.238 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.139 ms - -[0m
+[0mGET /javascripts/viewData.js [36m304 [0m0.601 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.339 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.881 ms - -[0m
+[0mGET /users/account [36m304 [0m47.665 ms - -[0m
+gettingData
+400028001247363336383437
+[0mGET /devices/getdata?theID%5B%5D=400028001247363336383437 [36m304 [0m503.283 ms - -[0m
+[0mGET /home.html [36m304 [0m0.956 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m1.751 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m2.019 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.370 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.331 ms - -[0m
+[0mGET /users/account [36m304 [0m28.829 ms - -[0m
+[0mGET /index.html [36m304 [0m0.554 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.176 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.796 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.704 ms - -[0m
+123456
+123456
+[0mPOST /users/signin [32m201 [0m31.777 ms - 150[0m
+[0mGET /home.html [36m304 [0m0.637 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.295 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.952 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.732 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.340 ms - -[0m
+[0mGET /users/account [32m200 [0m26.232 ms - 183[0m
+[0mGET /index.html [36m304 [0m1.935 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m2.110 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m5.599 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m5.555 ms - -[0m
+yeswecan
+yeswecan
+[0mPOST /users/signin [32m201 [0m14.364 ms - 144[0m
+[0mGET /home.html [36m304 [0m0.913 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m3.567 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.510 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m1.652 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.558 ms - -[0m
+[0mGET /users/account [32m200 [0m27.380 ms - 207[0m
+[0mGET /viewData.html [36m304 [0m0.368 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.794 ms - -[0m
+[0mGET /javascripts/viewData.js [36m304 [0m0.666 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.580 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.326 ms - -[0m
+[0mGET /users/account [36m304 [0m25.987 ms - -[0m
+gettingData
+400028001247363336383437
+[0mGET /devices/getdata?theID%5B%5D=400028001247363336383437 [36m304 [0m501.686 ms - -[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+29888
+Wed Nov 14 2018 06:03:47 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m54.456 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+29888
+Wed Nov 14 2018 06:03:48 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m28.467 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+29888
+Wed Nov 14 2018 06:03:49 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.972 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+29888
+Wed Nov 14 2018 06:03:51 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m29.848 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+2
+29888
+Wed Nov 14 2018 06:03:51 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.708 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+3
+29888
+Wed Nov 14 2018 06:03:52 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.705 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+4
+29888
+Wed Nov 14 2018 06:03:53 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.305 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+7
+29888
+Wed Nov 14 2018 06:03:54 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m36.159 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+10
+29888
+Wed Nov 14 2018 06:03:55 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.426 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+11
+29888
+Wed Nov 14 2018 06:03:56 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.461 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+10
+29888
+Wed Nov 14 2018 06:03:57 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m28.215 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+8
+29888
+Wed Nov 14 2018 06:03:58 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m29.934 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+5
+29888
+Wed Nov 14 2018 06:03:59 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.336 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+3
+29888
+Wed Nov 14 2018 06:04:01 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m28.773 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+2
+29888
+Wed Nov 14 2018 06:04:01 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.191 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+29888
+Wed Nov 14 2018 06:04:02 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m30.911 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+29888
+Wed Nov 14 2018 06:04:03 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m30.539 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+29888
+Wed Nov 14 2018 06:04:04 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.251 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+29888
+Wed Nov 14 2018 06:04:05 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.960 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+2
+29888
+Wed Nov 14 2018 06:04:06 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.570 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+4
+29888
+Wed Nov 14 2018 06:04:07 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.172 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+8
+29888
+Wed Nov 14 2018 06:04:08 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.871 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+9
+29888
+Wed Nov 14 2018 06:04:09 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.287 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+2
+29888
+Wed Nov 14 2018 06:04:10 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.917 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+29888
+Wed Nov 14 2018 06:04:11 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.501 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+29888
+Wed Nov 14 2018 06:04:12 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.653 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+29888
+Wed Nov 14 2018 06:04:13 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m33.232 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+29888
+Wed Nov 14 2018 06:04:14 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.549 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+7
+61888
+Wed Nov 14 2018 06:04:20 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.708 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+7
+61888
+Wed Nov 14 2018 06:04:20 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.284 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+6
+61888
+Wed Nov 14 2018 06:04:21 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m29.895 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+4
+61888
+Wed Nov 14 2018 06:04:22 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.928 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+2
+61888
+Wed Nov 14 2018 06:04:23 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m29.750 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+2
+61888
+Wed Nov 14 2018 06:04:24 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.346 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+61888
+Wed Nov 14 2018 06:04:25 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.246 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+61888
+Wed Nov 14 2018 06:04:26 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.386 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+61888
+Wed Nov 14 2018 06:04:27 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.362 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+61888
+Wed Nov 14 2018 06:04:28 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m25.963 ms - 49[0m
+[0mGET /viewData.html [36m304 [0m0.723 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.524 ms - -[0m
+[0mGET /javascripts/viewData.js [36m304 [0m0.387 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.227 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m1.013 ms - -[0m
+[0mGET /users/account [36m304 [0m27.635 ms - -[0m
+gettingData
+400028001247363336383437
+[0mGET /devices/getdata?theID%5B%5D=400028001247363336383437 [32m200 [0m502.653 ms - 31789[0m
+[0mGET /viewData.html [36m304 [0m0.396 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.471 ms - -[0m
+[0mGET /javascripts/viewData.js [36m304 [0m2.321 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.346 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.308 ms - -[0m
+[0mGET /users/account [36m304 [0m25.552 ms - -[0m
+gettingData
+400028001247363336383437
+[0mGET /devices/getdata?theID%5B%5D=400028001247363336383437 [32m200 [0m502.128 ms - 31789[0m
+[0mGET /home.html [36m304 [0m0.691 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.864 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.532 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.449 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.335 ms - -[0m
+[0mGET /users/account [36m304 [0m28.616 ms - -[0m
+[0mGET /index.html [36m304 [0m0.321 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.418 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.541 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.505 ms - -[0m
+[0mGET /register.html [36m304 [0m0.357 ms - -[0m
+[0mGET /javascripts/register.js [36m304 [0m1.336 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.890 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.863 ms - -[0m
+aTestAccount@gmail.com
+Test Account
+password
+Saving user... 
+Error == null
+[0mPOST /users/register [32m201 [0m16.932 ms - 59[0m
+[0mGET /index.html [36m304 [0m0.351 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.357 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.627 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.454 ms - -[0m
+password
+password
+[0mPOST /users/signin [32m201 [0m13.369 ms - 154[0m
+[0mGET /home.html [36m304 [0m0.343 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.347 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.476 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.410 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m7.914 ms - -[0m
+[0mGET /users/account [32m200 [0m26.853 ms - 128[0m
+[0mPOST /devices/register [32m201 [0m42.942 ms - 117[0m
+aTestDevice1234
+That was an ID
+aTestDevice1234
+99.9
+88.8
+77
+66
+5
+Wed Nov 14 2018 06:15:50 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.718 ms - 49[0m
+[0mGET /viewData.html [36m304 [0m1.357 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.384 ms - -[0m
+[0mGET /javascripts/viewData.js [36m304 [0m0.218 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.310 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.296 ms - -[0m
+[0mGET /users/account [32m200 [0m26.043 ms - 202[0m
+gettingData
+aTestDevice1234
+[0mGET /devices/getdata?theID%5B%5D=aTestDevice1234 [32m200 [0m500.898 ms - 138[0m
+aTestDevice1234
+That was an ID
+aTestDevice1234
+88.8
+77.7
+66
+55
+4
+Wed Nov 14 2018 06:16:16 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.571 ms - 49[0m
+aTestDevice1234
+That was an ID
+aTestDevice1234
+77.7
+66.6
+55
+44
+3
+Wed Nov 14 2018 06:16:33 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m38.685 ms - 49[0m
+[0mGET /viewData.html [36m304 [0m3.991 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.618 ms - -[0m
+[0mGET /javascripts/viewData.js [36m304 [0m0.526 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.324 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.350 ms - -[0m
+[0mGET /users/account [36m304 [0m25.880 ms - -[0m
+gettingData
+aTestDevice1234
+[0mGET /devices/getdata?theID%5B%5D=aTestDevice1234 [32m200 [0m501.368 ms - 368[0m
+[0mGET /home.html [36m304 [0m0.335 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.657 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.748 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.568 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.452 ms - -[0m
+[0mGET /users/account [36m304 [0m36.298 ms - -[0m
+[0mGET /index.html [36m304 [0m0.352 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.346 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.428 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.390 ms - -[0m
+password
+password
+[0mPOST /users/signin [32m201 [0m13.468 ms - 154[0m
+[0mGET /home.html [36m304 [0m0.366 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.763 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.717 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.685 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.343 ms - -[0m
+[0mGET /users/account [32m200 [0m26.263 ms - 202[0m
+[0mGET /viewData.html [36m304 [0m0.332 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.345 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.434 ms - -[0m
+[0mGET /javascripts/viewData.js [36m304 [0m0.380 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m1.604 ms - -[0m
+[0mGET /users/account [36m304 [0m25.308 ms - -[0m
+gettingData
+aTestDevice1234
+[0mGET /devices/getdata?theID%5B%5D=aTestDevice1234 [32m200 [0m501.152 ms - 368[0m
+[0mGET /home.html [36m304 [0m0.349 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.351 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.443 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.386 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.356 ms - -[0m
+[0mGET /users/account [36m304 [0m26.691 ms - -[0m
+[0mGET /index.html [36m304 [0m0.360 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.345 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.437 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.433 ms - -[0m
+yeswecan
+yeswecan
+[0mPOST /users/signin [32m201 [0m14.385 ms - 144[0m
+[0mGET /home.html [36m304 [0m0.385 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.350 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.466 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m1.075 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.334 ms - -[0m
+[0mGET /users/account [32m200 [0m26.110 ms - 207[0m
+[0mGET / [32m200 [0m4.656 ms - 2098[0m
+[0mGET / [32m200 [0m1.554 ms - 2098[0m
+[0mGET / [32m200 [0m1.778 ms - 2098[0m
+[0mGET /favicon.ico [33m404 [0m591.055 ms - 2168[0m
+[0mGET /index.html [36m304 [0m3.570 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.833 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.287 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.223 ms - -[0m
+[0mGET /home.html [36m304 [0m0.341 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.607 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.504 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.192 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.983 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m49.949 ms - 2168[0m
+[0mGET /users/account [36m304 [0m90.011 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m43.401 ms - 2168[0m
+[0mGET / [32m200 [0m2.416 ms - 2098[0m
+[0mGET / [32m200 [0m1.011 ms - 2098[0m
+[0mGET /index.html [36m304 [0m1.152 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.433 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m1.016 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.484 ms - -[0m
+[0mGET /home.html [36m304 [0m0.357 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.037 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.952 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.238 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.356 ms - -[0m
+[0mGET /users/account [36m304 [0m46.501 ms - -[0m
+[0mGET / [32m200 [0m0.566 ms - 2098[0m
+[0mGET / [32m200 [0m0.771 ms - 2098[0m
+[0mGET /favicon.ico [33m404 [0m48.714 ms - 2168[0m
+[0mGET / [32m200 [0m4.992 ms - 2098[0m
+[0mGET /favicon.ico [33m404 [0m52.202 ms - 2168[0m
+[0mGET / [32m200 [0m1.069 ms - 2098[0m
+[0mGET / [32m200 [0m0.771 ms - 2098[0m
+[0mGET /favicon.ico [33m404 [0m14.648 ms - 2168[0m
+[0mGET /favicon.ico [33m404 [0m12.939 ms - 2168[0m
+[0mGET / [32m200 [0m0.562 ms - 2098[0m
+[0mGET /stylesheets/holz.css [32m200 [0m0.596 ms - 263[0m
+[0mGET /javascripts/signin.js [32m200 [0m0.392 ms - 1617[0m
+[0mGET /images/logo.png [32m200 [0m0.512 ms - 14323[0m
+[0mGET /home.html [32m200 [0m0.556 ms - 2761[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.145 ms - -[0m
+[0mGET /javascripts/status.js [32m200 [0m0.362 ms - 3047[0m
+[0mGET /javascripts/signout.js [32m200 [0m0.339 ms - 235[0m
+[0mGET /images/logo.png [36m304 [0m0.447 ms - -[0m
+[0mGET /users/account [32m200 [0m46.030 ms - 202[0m
+[0mGET /favicon.ico [33m404 [0m41.853 ms - 2168[0m
+[0mGET /viewData.html [32m200 [0m0.582 ms - 2524[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.334 ms - -[0m
+[0mGET /javascripts/viewData.js [32m200 [0m0.361 ms - 4588[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.290 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.341 ms - -[0m
+[0mGET /users/account [36m304 [0m28.527 ms - -[0m
+gettingData
+aTestDevice1234
+[0mGET /devices/getdata?theID%5B%5D=aTestDevice1234 [32m200 [0m502.687 ms - 368[0m
+[0mGET /index.html [36m304 [0m0.395 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.424 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.412 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.230 ms - -[0m
+[0mGET /home.html [36m304 [0m0.374 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.720 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.545 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.277 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.328 ms - -[0m
+[0mGET /users/account [36m304 [0m26.207 ms - -[0m
+[0mGET /viewData.html [36m304 [0m2.718 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.347 ms - -[0m
+[0mGET /javascripts/viewData.js [36m304 [0m0.219 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.312 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m1.591 ms - -[0m
+[0mGET /users/account [36m304 [0m26.104 ms - -[0m
+gettingData
+400028001247363336383437
+[0mGET /devices/getdata?theID%5B%5D=400028001247363336383437 [36m304 [0m502.267 ms - -[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:43 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m44.737 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:46 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.969 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:46 GMT+0000 (UTC)
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:46 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m219.410 ms - 49[0m
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m219.967 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:47 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.981 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:48 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.726 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+16
+1179363
+Mon Nov 19 2018 21:25:49 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.129 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+154
+1179363
+Mon Nov 19 2018 21:25:50 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.871 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+122
+1179363
+Mon Nov 19 2018 21:25:51 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.866 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:52 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.696 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:53 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.753 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:54 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.076 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+16
+1179363
+Mon Nov 19 2018 21:25:55 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.572 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+64
+1179363
+Mon Nov 19 2018 21:25:56 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m30.581 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:57 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.916 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:58 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.812 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:25:59 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m28.461 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:26:00 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m30.438 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+1
+1179363
+Mon Nov 19 2018 21:26:01 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m31.957 ms - 49[0m
+[0mGET /viewData.html [36m304 [0m0.632 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.369 ms - -[0m
+[0mGET /javascripts/viewData.js [36m304 [0m0.221 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.380 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.339 ms - -[0m
+[0mGET /users/account [36m304 [0m27.124 ms - -[0m
+gettingData
+400028001247363336383437
+[0mGET /devices/getdata?theID%5B%5D=400028001247363336383437 [32m200 [0m502.442 ms - 34475[0m
+[0mGET / [32m200 [0m0.919 ms - 2098[0m
+[0mGET /favicon.ico [33m404 [0m25.459 ms - 2168[0m
+[0mGET / [32m200 [0m0.773 ms - 2098[0m
+[0mGET / [32m200 [0m0.754 ms - 2098[0m
+[0mGET /favicon.ico [33m404 [0m45.804 ms - 2168[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+241165
+Thu Nov 22 2018 20:55:13 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m58.796 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+241165
+Thu Nov 22 2018 20:55:15 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m27.942 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+241165
+Thu Nov 22 2018 20:55:15 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.682 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+241165
+Thu Nov 22 2018 20:55:17 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.020 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+241165
+Thu Nov 22 2018 20:55:17 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m25.610 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+241165
+Thu Nov 22 2018 20:55:18 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m25.613 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+241165
+Thu Nov 22 2018 20:55:19 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m26.815 ms - 49[0m
+400028001247363336383437
+That was an ID
+400028001247363336383437
+11.1
+22.200001
+33.299999
+0
+241165
+Thu Nov 22 2018 20:55:20 GMT+0000 (UTC)
+null
+Hmm
+[0mPOST /devices/report [32m201 [0m25.689 ms - 49[0m
+[0mGET /index.html [32m200 [0m3.806 ms - 2098[0m
+[0mGET /javascripts/signin.js [32m200 [0m1.394 ms - 1617[0m
+[0mGET /images/logo.png [32m200 [0m1.392 ms - 14323[0m
+[0mGET /stylesheets/holz.css [32m200 [0m0.359 ms - 263[0m
+[0mGET /favicon.ico [33m404 [0m45.028 ms - 2168[0m
+password
+password
+[0mPOST /users/signin [32m201 [0m15.396 ms - 154[0m
+[0mGET /home.html [32m200 [0m0.596 ms - 2761[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.209 ms - -[0m
+[0mGET /javascripts/signout.js [32m200 [0m0.843 ms - 235[0m
+[0mGET /javascripts/status.js [32m200 [0m0.784 ms - 3047[0m
+[0mGET /images/logo.png [36m304 [0m0.344 ms - -[0m
+[0mGET /users/account [32m200 [0m28.137 ms - 202[0m
+[0mGET /home.html [36m304 [0m0.347 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.473 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.241 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.426 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.242 ms - -[0m
+[0mGET /users/account [36m304 [0m36.936 ms - -[0m
+[0mGET /index.html [36m304 [0m0.355 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.354 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.566 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.463 ms - -[0m
+[0mGET /home.html [32m200 [0m0.679 ms - 2823[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.328 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.432 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.504 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.707 ms - -[0m
+[0mGET /users/account [36m304 [0m25.420 ms - -[0m
+[0mGET /index.html [36m304 [0m0.329 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.569 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.363 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.309 ms - -[0m
+[0mGET /home.html [36m304 [0m0.318 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.454 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.221 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.208 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.315 ms - -[0m
+[0mGET /users/account [36m304 [0m26.105 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.582 ms - 2276[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.352 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.363 ms - -[0m
+[0mGET /javascripts/accountSettings.js [32m200 [0m0.531 ms - 1[0m
+[0mGET /accountSetting.html [36m304 [0m0.459 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.368 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.583 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.402 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.605 ms - 2975[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.434 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.562 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.523 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.306 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.304 ms - -[0m
+[0mGET /users/account [36m304 [0m25.490 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.620 ms - 2389[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.364 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m1.135 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m1.056 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.417 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.256 ms - -[0m
+[0mGET /users/account [36m304 [0m26.033 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.588 ms - 2883[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.365 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.269 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.418 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.311 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.202 ms - -[0m
+[0mGET /users/account [36m304 [0m26.038 ms - -[0m
+[0mGET /index.html [36m304 [0m0.465 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.916 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.527 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.481 ms - -[0m
+[0mGET /home.html [36m304 [0m0.346 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.647 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.528 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.243 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.331 ms - -[0m
+[0mGET /users/account [36m304 [0m25.522 ms - -[0m
+[0mGET /accountSetting.html [36m304 [0m0.361 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.340 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.458 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.395 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.319 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.242 ms - -[0m
+[0mGET /users/account [36m304 [0m25.850 ms - -[0m
+[0mGET /index.html [36m304 [0m0.330 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.343 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.633 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.456 ms - -[0m
+[0mGET /home.html [36m304 [0m0.439 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.336 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.257 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.274 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.311 ms - -[0m
+[0mGET /users/account [36m304 [0m25.890 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.569 ms - 3000[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.496 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.559 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.704 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.363 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.262 ms - -[0m
+[0mGET /users/account [36m304 [0m25.690 ms - -[0m
+[0mGET /index.html [36m304 [0m0.414 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.847 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.558 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m1.119 ms - -[0m
+[0mGET /home.html [36m304 [0m0.340 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.319 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.648 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.470 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.435 ms - -[0m
+[0mGET /users/account [36m304 [0m37.820 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.645 ms - 3009[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.353 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.456 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.505 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.299 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.290 ms - -[0m
+[0mGET /users/account [36m304 [0m52.057 ms - -[0m
+[0mGET /index.html [36m304 [0m0.442 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.920 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.811 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.652 ms - -[0m
+[0mGET /home.html [36m304 [0m0.355 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m4.410 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m1.313 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m1.242 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.317 ms - -[0m
+[0mGET /users/account [36m304 [0m25.344 ms - -[0m
+[0mGET /home.html [36m304 [0m0.361 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.324 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.560 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.422 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.326 ms - -[0m
+[0mGET /users/account [36m304 [0m25.342 ms - -[0m
+[0mGET /index.html [36m304 [0m0.485 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.358 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.605 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.404 ms - -[0m
+[0mGET /home.html [36m304 [0m0.349 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.442 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.588 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.557 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.318 ms - -[0m
+[0mGET /users/account [36m304 [0m25.903 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.540 ms - 2658[0m
+[0mGET /javascripts/status.js [36m304 [0m0.360 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.528 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.437 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.383 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m2.255 ms - -[0m
+[0mGET /users/account [36m304 [0m25.676 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.563 ms - 2753[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.619 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.476 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.231 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.440 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.312 ms - -[0m
+[0mGET /users/account [36m304 [0m29.415 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.502 ms - 2753[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.710 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m1.637 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.214 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.261 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.209 ms - -[0m
+[0mGET /users/account [36m304 [0m25.554 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.496 ms - 3201[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.690 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.465 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.319 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.303 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.211 ms - -[0m
+[0mGET /users/account [36m304 [0m25.284 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.622 ms - 3394[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.735 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.454 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.482 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.323 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.325 ms - -[0m
+[0mGET /users/account [36m304 [0m25.822 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.470 ms - 3641[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.340 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.259 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.315 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.428 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.319 ms - -[0m
+[0mGET /users/account [36m304 [0m26.603 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.510 ms - 3502[0m
+[0mGET /javascripts/status.js [36m304 [0m0.851 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.813 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.777 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.325 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.240 ms - -[0m
+[0mGET /users/account [36m304 [0m25.684 ms - -[0m
+[0mGET /accountSetting.html [32m200 [0m0.465 ms - 3461[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.440 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.222 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.314 ms - -[0m
+[0mGET /javascripts/accountSettings.js [36m304 [0m0.350 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.206 ms - -[0m
+[0mGET /users/account [36m304 [0m25.569 ms - -[0m
+[0mGET / [32m200 [0m1.007 ms - 2098[0m
+[0mGET / [32m200 [0m0.949 ms - 2098[0m
+[0mGET / [32m200 [0m0.752 ms - 2098[0m
+[0mGET / [32m200 [0m0.711 ms - 2098[0m
+[0mGET /favicon.ico [33m404 [0m45.748 ms - 2168[0m
+[0mGET /favicon.ico [33m404 [0m11.156 ms - 2168[0m
+[0mGET / [32m200 [0m0.764 ms - 2098[0m
+[0mGET /stylesheets/holz.css [32m200 [0m0.563 ms - 263[0m
+[0mGET /javascripts/signin.js [32m200 [0m0.507 ms - 1617[0m
+[0mGET /images/logo.png [32m200 [0m0.470 ms - 14323[0m
+[0mGET /home.html [32m200 [0m0.506 ms - 2823[0m
+[0mGET /stylesheets/holz.css [36m304 [0m1.139 ms - -[0m
+[0mGET /javascripts/status.js [32m200 [0m1.396 ms - 3047[0m
+[0mGET /javascripts/signout.js [32m200 [0m1.395 ms - 235[0m
+[0mGET /images/logo.png [36m304 [0m0.372 ms - -[0m
+[0mGET /users/account [32m200 [0m44.435 ms - 202[0m
+[0mGET /favicon.ico [33m404 [0m12.884 ms - 2168[0m
+[0mGET / [36m304 [0m0.348 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.391 ms - -[0m
+[0mGET /javascripts/signin.js [36m304 [0m0.237 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.321 ms - -[0m
+[0mGET /home.html [36m304 [0m0.384 ms - -[0m
+[0mGET /stylesheets/holz.css [36m304 [0m0.302 ms - -[0m
+[0mGET /javascripts/status.js [36m304 [0m0.212 ms - -[0m
+[0mGET /javascripts/signout.js [36m304 [0m0.340 ms - -[0m
+[0mGET /images/logo.png [36m304 [0m0.320 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m9.794 ms - 2168[0m
+[0mGET /users/account [36m304 [0m27.841 ms - -[0m

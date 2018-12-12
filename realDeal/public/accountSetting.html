@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-	 <title>UVFit Home</title>
+	 <title>UVFit Account Settings</title>
 
 	 <!-- Import Google Icon Font -->
 	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,7 +11,8 @@
 	 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
-	 <link href="/stylesheets/holz.css" rel="stylesheet">
+	 <link href="/stylesheets/holz.css" rel="stylesheet" type="text/css">
+	 <script src="/javascripts/accountSettings.js" defer></script>
 	 <script src="/javascripts/status.js" defer></script>
 	 <script src="/javascripts/signout.js" defer></script>
 
@@ -40,30 +41,53 @@
 
 	<div class="row" id="main">
 		<div class="col s12 m12">
-			<ul class="collection with-header ">
+			<ul class="collection with-header" id="forceWhite">
 				<li class="collection-header light-green lighten-2">
-					<h5>Account details</h5>
+					<h5>Account Settings</h5>
 				</li>
 				<li class="collection-item">Email: <span id="email"></span></li>
 				<li class="collection-item">Name: <span id="fullName"></span></li>
 				<li class="collection-item">UV Limit: <span id="uvLimit"></span></li>
 				<li class="collection-item">Last Access: <span id="lastAccess"></span></li>
-				
 			</ul>
-			<ul class="collection with-header" id="devices">
-				<li class="collection-header light-green lighten-3">
-					<h5>Your device (only 1 may be registered at a time)</h5>
-				</li>
-				<li class="collection-item" id="addDeviceForm">
-					<label for="deviceId">New Device ID:</label>
-					<input type="text" id="deviceId" name="deviceId" col="30">
-					<button id="registerDevice" class="waves-effect waves-light btn">Register</button> 
-					<button id="cancel" class="waves-effect waves-light btn">Cancel</button> 
-				</li>
-				<li class="collection-item" id="addDeviceControl"><a href="#!" id="addDevice">Register A Device</a><p>  </p><a href="#!" id="removeDevice">Remove Device</a></li>
-			</ul>
+			<div class="card white">
+				<ul class="collection with-header">
+					<li class="collection-header light-green lighten-2">
+						<h5>Update Account Settings</h5>
+					</li>
+
+					<div class="input-field col s12 m6">
+	              		<label for="updateEmail ">Update Email</label>
+	              		<input type="text" id="updateEmail" name="updateEmail" >
+	              		<button id="updateEmailButton" class="waves-effect waves-light btn">Update Email</button> 
+	            	</div>
+
+					<div class="input-field col s12 m6">
+	              		<label for="updateUvThresh">Update UV Threshold</label>
+	              		<input type="text" id="updateUvThresh" name="updateUvThresh" >
+	              		<button id="updateUvThreshButton" class="waves-effect waves-light btn">Update UV</button> 
+	            	</div>
+
+					<div class="input-field col s12 m6">
+	              		<label for="updateName" class="text-indigo darken-4">Update Name</label>
+	              		<input type="text" id="updateName" name="updateName" >
+	              		<button id="updateNameButton" class="waves-effect waves-light btn">Update Name</button> 
+	            	</div>
+
+				<div class='red-text text-darken-2' id="error"></div>
+
+					<div class="input-field col s12 m6">
+	              		<label for="updatePassword">Update Password</label>
+	              		<input type="text" id="updatePassword" name="updatePassword" >
+	              		<button id="updatePasswordButton" class="waves-effect waves-light btn">Update Password</button> 
+	            	</div>            	            	
+				</ul>
+			</div>
 			<div class='red-text text-darken-2' id="error"></div>
 		</div>
+		<div class="card-panel red-text" id="ServerResponse" style="display: none"></div>
+
+
 	</div>
   </body>
 

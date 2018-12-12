@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var devicesRouter = require('./routes/devices');
-
+var activityRouter = require('./routes/activity');
 // Creates the router for the currency router. 
 // The './routes/currency' tells express use the module defined 
 // in the currency.js file located in the routes directory
@@ -65,6 +65,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/devices', devicesRouter);
 app.use('/users', usersRouter);
+app.use('/activity', activityRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

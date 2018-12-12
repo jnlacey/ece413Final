@@ -1,0 +1,19 @@
+table.striped > tr:nth-child(odd) {
+ 
+  background-color: rgba(170, 213, 213, 0.5);
+ 
+}
+
+.hovering:hover {
+	background-color: lightblue;
+}
+
+.hovering:focus {
+	color: white;
+	background-color: blue;
+}
+
+.Editable {
+	color: red;
+	font-weight: bold;
+}

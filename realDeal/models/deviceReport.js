@@ -7,7 +7,7 @@ var deviceReportSchema = new db2.Schema({
     GPS_speed: Number,
     uvLevel: Number,
     session: Number,
-    time:  { type: Date, default: Date.now }
+    time: Date
 });
 
 var DeviceReport = db2.model("DeviceReport", deviceReportSchema);

@@ -8,34 +8,100 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
-    
-    <link href="/stylesheets/holz.css" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <link href="./stylesheets/holz.css" rel="stylesheet">
+    <link href="./stylesheets/viewData.css" rel="stylesheet">
     <script src="/javascripts/viewData.js" defer></script>
+    <script src="/javascripts/status.js" defer></script>
+    <script src="/javascripts/signout.js" defer></script>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
   </head>
   
-  <body> 
-	<ul id="dropdown1" class="dropdown-content">
-		<li><a href="home.html">Home</a></li>
-		//<li><a href="viewData.html">View Data</a></li>
-		<li class="divider"></li>
-		<li><a href="#!" id="signout">Sign out</a></li>
-	</ul>
+  <body class=" light-green lighten-4"> 
+  
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="home.html">Home</a></li>
+    <li><a href="viewData.html">View Data</a></li>
+    <li><a href="accountSetting.html">Account Settings</a></li>
+    <li class="divider"></li>
+    <li><a href="#!" id="signout">Sign out</a></li>
+  </ul>
 
-    <nav>
-      <div class="nav-wrapper blue-grey darken-2">
-      	<a href="home.html" class="brand-logo left"><img id="logo" src="images/logo.png"><span id="name">UVFit</span></a>
-      </div>
-    </nav>
+  <ul id='dropdown2' class='dropdown-content'>
+    <li><a href="#!">Walking</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href="#!">Running</a></li>
+    <li class="divider" tabindex="-1"></li>
+    <li><a href="#!">Biking</a></li>
+  </ul> 
 
-	<ul>
-		<tr>
-			<th>Testing</th><td>Still a Test</td>
-		</tr>
-	</ul>
+  <nav>
+    <div class="nav-wrapper light-green darken-3">
+      <a href="home.html" class="brand-logo left"><img id="logo" src="images/logo.png"><span id="name">UvFit</span></a>
+      <ul class="right ">
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons">more_vert</i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="row" id="main">
+    <div class="col s12 m12">
+      <ul class="collection with-header">
+        <li class="collection-header light-green lighten-2">
+          <h5>Data Summary Past 7 Days</h5>
+        </li>
+        <li class="collection-item">Total Activity Duration: <span id="duration"></span></li>
+        <li class="collection-item">Total Calories Burned: <span id="calories"></span></li>
+        <li class="collection-item">Total UV Exposure: <span id="uvExposure"></span></li>
+      </ul>
+
+      <ul class="collection with-header">
+        <li class="collection-header light-green lighten-2">
+          <h5>Data List View</h5>
+        </li>
+<!-- 				<div class="input-field" contenteditable="true">
+        	<label for="updateEmail">Which Activity? (Walking, Running, Biking): </label>
+        	<input type="text" id="activityType" name="activityType" >
+        	<button id="updateTableButton" class="waves-effect waves-light btn">Update Table</button> 
+        </div> -->
+        <li class="collection-item">
+<!--             <table>
+              <tr>
+                <td>Hello <input type="text" id="updateEmail" name="updateEmail" > 
+                <button id="updateEmailButton">Update Email</button>  </td>
+              </tr>
+            </table> -->
+            <button id="updateActivities" class="waves-effect waves-light btn">Update Activities</button> 
+            <table id="listView" class="striped responsive-table">
+            </table>
+        </li>
+
+      </ul>      
+
+    <div class='red-text text-darken-2' id="error"></div>
+    </div>
+  </div>
+
+  <div id="tester">
+  </div>
+
+
+  <div id = "thetablezone"></div>
+
   </body>
+  
+
+  <script>
+    $(document).ready(function() {
+      $(".dropdown-button").dropdown();
+    })
+  </script>
 </html>
 
